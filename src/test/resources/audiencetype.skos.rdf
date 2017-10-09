@@ -1,0 +1,33 @@
+<rdf:RDF xmlns:env="http://wolterskluwer.com/wkbe/envelop" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="http://data.wolterskluwer.com/wkbe/kos/audienceType">
+    <dcterms:creator rdf:resource="http://data.wolterskluwer.com/user/michiel.vanhoutte"/>
+    <skos:hasTopConcept rdf:resource="http://data.wolterskluwer.com/wkbe/kos/audienceType/Juridical"/>
+    <skos:hasTopConcept rdf:resource="http://data.wolterskluwer.com/wkbe/kos/audienceType/Practical"/>
+    <dcterms:identifier>audienceType</dcterms:identifier>
+    <dcterms:title xml:lang="en">audienceType</dcterms:title>
+    <rdfs:label xml:lang="en">audienceType</rdfs:label>
+    <dcterms:created rdf:datatype="xs:dateTime">2016-05-02T07:33:47Z</dcterms:created>
+    <dcterms:modified rdf:datatype="xs:dateTime">2016-05-02T07:34:14Z</dcterms:modified>
+    <dc:identifier>wkbe-audienceType</dc:identifier>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="http://data.wolterskluwer.com/wkbe/kos/audienceType/Juridical">
+    <skos:topConceptOf rdf:resource="http://data.wolterskluwer.com/wkbe/kos/audienceType"/>
+    <skos:prefLabel xml:lang="en">Juridical</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Juridique</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Juridisch</skos:prefLabel>
+    <dcterms:created rdf:datatype="xs:dateTime">2016-05-02T07:38:13Z</dcterms:created>
+    <dcterms:modified rdf:datatype="xs:dateTime">2016-06-02T07:21:48Z</dcterms:modified>
+    <skos:inScheme rdf:resource="http://data.wolterskluwer.com/wkbe/kos/audienceType"/>
+    <dc:identifier>wkbe-audienceType-Juridical</dc:identifier>
+  </skos:Concept>
+  <skos:Concept rdf:about="http://data.wolterskluwer.com/wkbe/kos/audienceType/Practical">
+    <skos:topConceptOf rdf:resource="http://data.wolterskluwer.com/wkbe/kos/audienceType"/>
+    <skos:prefLabel xml:lang="en">Practical</skos:prefLabel>
+    <skos:prefLabel xml:lang="nl">Praktisch</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Pratique</skos:prefLabel>
+    <dcterms:created rdf:datatype="xs:dateTime">2016-05-02T07:37:57Z</dcterms:created>
+    <dcterms:modified rdf:datatype="xs:dateTime">2016-06-02T07:22:16Z</dcterms:modified>
+    <skos:inScheme rdf:resource="http://data.wolterskluwer.com/wkbe/kos/audienceType"/>
+    <dc:identifier>wkbe-audienceType-Practical</dc:identifier>
+  </skos:Concept>
+</rdf:RDF>
